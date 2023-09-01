@@ -10,7 +10,7 @@ This database follows a star schema, where the fact table is the log of song pla
 
 The following is the database schema:
 
-![schema image](https://github.com/maybeyue/udacity-data-engineering/blob/main/schema.jpg)
+![schema image](https://github.com/maybeyue/udacity-data-engineering/blob/main/lesson_2_data_warehouse/schema.jpg)
 
 This schema provides a simple, performative query execution that's easy to maintain.
 
