@@ -82,9 +82,9 @@ user_location = """
 artist_location = """
     SELECT location, count(artist_id) as total_artists
     FROM dim_artist
+    WHERE location != ''
     GROUP BY location
     ORDER BY total_artists DESC
-    WHERE location != ''
     LIMIT 5
 """
 
