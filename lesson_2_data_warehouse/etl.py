@@ -6,7 +6,7 @@ import configparser
 import psycopg2
 import logging
 
-from sql_queries import (
+from sql_queries.sql_queries import (
     copy_table_queries,
     insert_table_queries,
     generated_tables

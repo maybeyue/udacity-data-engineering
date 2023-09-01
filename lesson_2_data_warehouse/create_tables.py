@@ -4,7 +4,7 @@ import configparser
 import logging
 import psycopg2
 
-from sql_queries import create_table_queries, drop_table_queries
+from sql_queries.sql_queries import create_table_queries, drop_table_queries
 
 logger = logging.getLogger()
 
