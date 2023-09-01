@@ -53,6 +53,7 @@ most_popular_songs_from_top_artists = f"""
     FROM top_song_per_artist AS top_song
     JOIN dim_song ON dim_song.song_id = top_song.song_id
     JOIN dim_artist ON dim_artist.artist_id = top_song.artist_id
+    ORDER BY dim_artist.name, dim_song.title
 """
 
 most_popular_day_of_week = """
@@ -83,6 +84,7 @@ artist_location = """
     FROM dim_artist
     GROUP BY location
     ORDER BY total_artists DESC
+    WHERE location != ''
     LIMIT 5
 """
 
