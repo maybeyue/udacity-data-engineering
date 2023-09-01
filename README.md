@@ -1,2 +1,3 @@
 # udacity-data-engineering
-Udacity data engineering course
+
+Udacity Data Engineering Course
