@@ -224,6 +224,7 @@ time_table_insert = ("""
         SELECT DISTINCT
             TIMESTAMP 'epoch' + ts / 1000 * INTERVAL '1 second' AS ts
         FROM staging_events
+        WHERE page = 'NextSong'
     )
     SELECT
         ts AS start_time,
@@ -234,7 +235,6 @@ time_table_insert = ("""
         EXTRACT(year FROM ts) AS year,
         EXTRACT(dayofweek FROM ts) AS weekday
     FROM timestamp_table
-        WHERE page = 'NextSong'
 """)
 
 # QUERY LISTS
