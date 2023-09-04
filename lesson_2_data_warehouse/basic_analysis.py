@@ -2,7 +2,7 @@
 import configparser
 import psycopg2
 
-from basic_analysis_queries import analysis_questions
+from sql_queries.basic_analysis_queries import analysis_questions
 
 
 def analysis(cur):
