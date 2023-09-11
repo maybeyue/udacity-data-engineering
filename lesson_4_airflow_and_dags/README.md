@@ -4,7 +4,7 @@ This project automates data pipelines with Airflow. The data is stored in Amazon
 
 The dag is transformed as follows:
 
-[!DAG](https://github.com/maybeyue/udacity-data-engineering/blob/main/lesson_4_airflow_and_dags/photos/dag.png)
+![DAG](https://github.com/maybeyue/udacity-data-engineering/blob/main/lesson_4_airflow_and_dags/photos/dag.png)
 
 First, create two staging tables for songs and song play events. Then, load that data from S3 into Redshift. Once those tables are created, load the main fact table, then create the rest of the dimensions table. Finally, we run basic data quality checks to make sure that the data is loaded appropriately and all primary keys contain non-null values. The expected schema is as follows:
 
