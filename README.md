@@ -13,3 +13,7 @@ Set up S3, IAM, VPC, EC2, and RDS. Built a Redshift data warehouse cluster.
 ## Lesson 3 Spark and Data Lakes
 
 Used Apache Spark and PySpark. Set up services using AWS Glue.
+
+## Lesson 4 Airflow and Dags
+
+Learned to connect Airflow with AWS Redshift and S3 to create scheduled data pipelines.
