@@ -1,3 +1,9 @@
 # Lesson 1: Data Modeling
 
-In this lesson, we model the data for compatibility with Apache Cassandra (NoSQL). In the project, we look at various scenarios of common and expected sql queries that we would need to maintain on a regular basis and create appropriate data models for each.
+### Data Overview
+The data is a log of events on a music app that were logged by the  user. The data is a directory of CSV files partitioned by date.
+
+### Project Overview
+* Create an Apache Cassandra database to create queries on song play data to answer some analysis questions
+* Design tables to answer queries outlined in the project
+* Build ETL pipeline
